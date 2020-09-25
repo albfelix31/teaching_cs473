@@ -12,7 +12,7 @@ public class ExampleController {
 
     @GetMapping("/ping")
     public String ping() {
-        return "hello world";
+        return "Hello world! This is Albert Felix, EMPLID 23517450 via Docker";
     }
 
     @GetMapping("/example")
