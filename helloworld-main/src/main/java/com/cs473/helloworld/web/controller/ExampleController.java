@@ -10,7 +10,7 @@ import com.cs473.helloworld.web.ExampleResponse;
 @RestController
 public class ExampleController {
 
-    @GetMapping("/ping")
+    @GetMapping("/albert")
     public String ping() {
         return "Hello world! This is Albert Felix, EMPLID 23517450 via Docker";
     }
